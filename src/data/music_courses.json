@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "title": "Learn Guitar Basics",
+    "slug": "learn-guitar-basics",
+    "description": "Master the fundamentals of guitar playing with this beginner-friendly course.",
+    "price": 49.99,
+    "instructor": "John Doe",
+    "isFeatured": true,
+    "image": "Images/guitar.avif",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 2,
+    "title": "Piano for Beginners",
+    "slug": "piano-for-beginners",
+    "description": "A step-by-step piano course designed for new players.",
+    "price": 39.99,
+    "instructor": "Jane Smith",
+    "isFeatured": false,
+    "image": "Images/woman-playing-piano-music-studio.jpg",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 3,
+    "title": "Advanced Music Theory",
+    "slug": "advanced-music-theory",
+    "description": "Dive deep into complex music theory concepts and expand your musical knowledge.",
+    "price": 99.99,
+    "instructor": "Michael Brown",
+    "isFeatured": true,
+    "image": "Images/advance_theory.jpg",
+    "duration": "8 weeks"
+  },
+  {
+    "id": 4,
+    "title": "Songwriting 101",
+    "slug": "songwriting-101",
+    "description": "Learn the art of crafting original songs from start to finish.",
+    "price": 69.99,
+    "instructor": "Lisa Green",
+    "isFeatured": false,
+    "image": "Images/woman-wearing.jpg",
+    "duration": "5 weeks"
+  },
+  {
+    "id": 5,
+    "title": "Drum Mastery",
+    "slug": "drum-mastery",
+    "description": "A comprehensive course for mastering the drums, from beginner to advanced levels.",
+    "price": 79.99,
+    "instructor": "David Harris",
+    "isFeatured": true,
+    "image": "Images/drum_mastery.jpg",
+    "duration": "12 weeks"
+  },
+  {
+    "id": 6,
+    "title": "Electronic Music Production",
+    "slug": "electronic-music-production",
+    "description": "Learn to produce professional electronic music using DAWs and other digital tools.",
+    "price": 149.99,
+    "instructor": "Alice Taylor",
+    "isFeatured": false,
+    "image": "Images/electronic_music.jpg",
+    "duration": "10 weeks"
+  },
+  {
+    "id": 7,
+    "title": "Voice Training for Singers",
+    "slug": "voice-training-for-singers",
+    "description": "Improve your vocal skills and enhance your singing voice with proven techniques.",
+    "price": 59.99,
+    "instructor": "Carlos Martinez",
+    "isFeatured": true,
+    "image": "Images/voice_training.jpg",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 8,
+    "title": "Introduction to Music Production",
+    "slug": "introduction-to-music-production",
+    "description": "A beginner's guide to music production, covering key concepts and software.",
+    "price": 49.99,
+    "instructor": "Emma Wilson",
+    "isFeatured": false,
+    "image": "Images/music_production_intro.jpg",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 9,
+    "title": "Jazz Improvisation",
+    "slug": "jazz-improvisation",
+    "description": "Unlock the secrets of improvisation in jazz music.",
+    "price": 89.99,
+    "instructor": "George Scott",
+    "isFeatured": false,
+    "image": "Images/jazz_improvisation.jpg",
+    "duration": "8 weeks"
+  },
+  {
+    "id": 10,
+    "title": "Advanced Guitar Techniques",
+    "slug": "advanced-guitar-techniques",
+    "description": "Master advanced guitar playing techniques like shredding, bending, and fingerpicking.",
+    "price": 119.99,
+    "instructor": "Brian Clark",
+    "isFeatured": true,
+    "image": "Images/guitar-music-outdoors_23-2148079209.jpg",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 11,
+    "title": "Classical Piano Mastery",
+    "slug": "classical-piano-mastery",
+    "description": "Perfect your skills in classical piano and learn the masterpieces of the great composers.",
+    "price": 129.99,
+    "instructor": "Clara Adams",
+    "isFeatured": true,
+    "image": "Images/classical_piano.jpg",
+    "duration": "12 weeks"
+  },
+  {
+    "id": 12,
+    "title": "Music Production for Beginners",
+    "slug": "music-production-for-beginners",
+    "description": "Learn the basics of music production, perfect for aspiring producers.",
+    "price": 59.99,
+    "instructor": "Daniel King",
+    "isFeatured": false,
+    "image": "Images/music_production_beginners.jpg",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 13,
+    "title": "Vocal Coaching for Performers",
+    "slug": "vocal-coaching-for-performers",
+    "description": "Train your voice to perform at its best in front of an audience.",
+    "price": 79.99,
+    "instructor": "Olivia Thompson",
+    "isFeatured": false,
+    "image": "Images/vocal_coaching.jpg",
+    "duration": "5 weeks"
+  },
+  {
+    "id": 14,
+    "title": "Music Theory for Beginners",
+    "slug": "music-theory-for-beginners",
+    "description": "An introduction to music theory, perfect for those who are new to reading and understanding music.",
+    "price": 39.99,
+    "instructor": "Daniela Cruz",
+    "isFeatured": true,
+    "image": "Images/music_theory.jpg",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 15,
+    "title": "Advanced Bass Guitar",
+    "slug": "advanced-bass-guitar",
+    "description": "Take your bass playing to the next level with advanced techniques and styles.",
+    "price": 89.99,
+    "instructor": "Paul Johnson",
+    "isFeatured": false,
+    "image": "Images/advanced_bass.jpg",
+    "duration": "8 weeks"
+  },
+  {
+    "id": 16,
+    "title": "Music Production with Ableton Live",
+    "slug": "music-production-with-ableton-live",
+    "description": "Learn how to create professional tracks using Ableton Live software.",
+    "price": 99.99,
+    "instructor": "Rachel Lee",
+    "isFeatured": true,
+    "image": "Images/ableton_live.jpg",
+    "duration": "10 weeks"
+  },
+  {
+    "id": 17,
+    "title": "Ukulele for Beginners",
+    "slug": "ukulele-for-beginners",
+    "description": "Start your musical journey with the fun and easy-to-learn ukulele.",
+    "price": 29.99,
+    "instructor": "Sophia Williams",
+    "isFeatured": false,
+    "image": "Images/ukulele_beginners.jpg",
+    "duration": "3 weeks"
+  },
+  {
+    "id": 18,
+    "title": "Music Production for Film Scores",
+    "slug": "music-production-for-film-scores",
+    "description": "Learn how to create cinematic soundtracks for films and videos.",
+    "price": 199.99,
+    "instructor": "Tom Green",
+    "isFeatured": true,
+    "image": "Images/film_scores.jpg",
+    "duration": "14 weeks"
+  },
+  {
+    "id": 19,
+    "title": "Acoustic Guitar Essentials",
+    "slug": "acoustic-guitar-essentials",
+    "description": "Learn essential acoustic guitar techniques, including strumming, fingerpicking, and more.",
+    "price": 59.99,
+    "instructor": "Zoe Adams",
+    "isFeatured": false,
+    "image": "Images/acoustic_essentials.jpg",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 20,
+    "title": "Electronic Music Production with Logic Pro",
+    "slug": "electronic-music-production-with-logic-pro",
+    "description": "Take your electronic music production skills to the next level with Logic Pro software.",
+    "price": 149.99,
+    "instructor": "Nathan Evans",
+    "isFeatured": false,
+    "image": "Images/electronic_music.jpg",
+    "duration": "12 weeks"
+  }
+]
