@@ -1,0 +1,117 @@
+[
+    {
+      "title": "Unlock Funding for Your Career: PRS Foundation Webinar",
+      "description": "Join The Ivors Academy and PRS Foundation to learn about grants and funding available to support your work.",
+      "slug": "unlock-grants",
+      "isFeatured": true
+    },
+    {
+      "title": "Council of Music Makers (CMM): Fix Streaming Webinar",
+      "description": "A webinar discussing the economics of music streaming, organized by the Council Of Music Makers.",
+      "slug": "cmm-fix-streaming",
+      "isFeatured": true
+    },
+    {
+      "title": "The Ivors Academy Summit",
+      "description": "A flagship summit to equip songwriters and composers with practical knowledge, tools, and connections to build and sustain successful careers.",
+      "slug": "the-ivors-academy-summit",
+      "isFeatured": true
+    },
+    {
+      "title": "The Ivors with Amazon Music 2025",
+      "description": "The most prestigious celebration of songwriting and screen composition.",
+      "slug": "the-ivors-with-amazon-music-2025",
+      "isFeatured": true
+    },
+    {
+      "title": "Ivors Academy Honours 2025",
+      "description": "An awards ceremony celebrating exceptional individuals from across music who champion the songwriter and composer community.",
+      "slug": "ivors-academy-honours-2025",
+      "isFeatured": true
+    },
+    {
+      "title": "Composing for Film and TV: A Masterclass",
+      "description": "An in-depth session on how to break into composing for film and TV, featuring top composers.",
+      "slug": "composing-for-film-tv",
+      "isFeatured": true
+    },
+    {
+      "title": "Understanding Music Copyright",
+      "description": "A comprehensive webinar that explores the fundamentals of music copyright law and how it affects artists.",
+      "slug": "understanding-music-copyright",
+      "isFeatured": true
+    },
+    {
+      "title": "Digital Distribution for Musicians",
+      "description": "Learn how to distribute your music digitally on platforms like Spotify, Apple Music, and more.",
+      "slug": "digital-distribution-for-musicians",
+      "isFeatured": false
+    },
+    {
+      "title": "Music Marketing: How to Promote Your Release",
+      "description": "Gain valuable insights on how to effectively market your music to grow your audience and increase streams.",
+      "slug": "music-marketing-how-to-promote",
+      "isFeatured": false
+    },
+    {
+      "title": "Songwriting for Beginners: Tips and Tricks",
+      "description": "A beginner-friendly webinar on how to start writing songs and refine your craft as a songwriter.",
+      "slug": "songwriting-for-beginners",
+      "isFeatured": false
+    },
+    {
+      "title": "Advanced Music Production Techniques",
+      "description": "This webinar will dive into advanced techniques for producing high-quality music, from sound design to mixing.",
+      "slug": "advanced-music-production-techniques",
+      "isFeatured": true
+    },
+    {
+      "title": "Music Licensing 101",
+      "description": "Learn the basics of music licensing and how to get your music placed in films, TV shows, and commercials.",
+      "slug": "music-licensing-101",
+      "isFeatured": false
+    },
+    {
+      "title": "Mastering the Art of Live Performance",
+      "description": "Learn how to improve your live performances and connect with audiences, featuring professional live musicians.",
+      "slug": "mastering-live-performance",
+      "isFeatured": false
+    },
+    {
+      "title": "The Future of Music Technology",
+      "description": "A deep dive into the innovations shaping the future of music production and performance.",
+      "slug": "future-of-music-technology",
+      "isFeatured": true
+    },
+    {
+      "title": "Producing Music for Video Games",
+      "description": "A special webinar focusing on how to create music specifically for video game soundtracks and scores.",
+      "slug": "producing-music-for-video-games",
+      "isFeatured": true
+    },
+    {
+      "title": "The Business of Music: How to Get Paid",
+      "description": "A guide to understanding the business side of music, from royalties to licensing and everything in between.",
+      "slug": "business-of-music",
+      "isFeatured": true
+    },
+    {
+      "title": "Networking for Musicians",
+      "description": "Learn how to build your network as a musician, from industry professionals to fellow artists.",
+      "slug": "networking-for-musicians",
+      "isFeatured": false
+    },
+    {
+      "title": "The Evolution of Music Genres",
+      "description": "An exploration of how different music genres have evolved over time and what it means for modern artists.",
+      "slug": "evolution-of-music-genres",
+      "isFeatured": false
+    },
+    {
+      "title": "Virtual Music Collaboration Tools",
+      "description": "A webinar on how to collaborate with other musicians remotely using the latest virtual tools and software.",
+      "slug": "virtual-music-collaboration-tools",
+      "isFeatured": false
+    }
+  ]
+  

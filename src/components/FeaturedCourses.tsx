@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { Button } from "./ui/moving-border";
+import { useRouter } from "next/navigation";
 
 interface Course {
   id: number;
@@ -20,34 +20,41 @@ interface Course {
 }
 
 const FeaturedCourses = () => {
+  const router = useRouter();
   const [featuredCourses, setFeaturedCourses] = useState<Course[]>([]);
   const [hide, setHide] = useState(false);
   const [learnMoreId, setLearnMoreId] = useState<number | null>(null);
 
   useEffect(() => {
-    setFeaturedCourses(courseData.filter((course: Course) => course.isFeatured));
+    const featured = courseData.filter((course) => course.isFeatured);
+    setFeaturedCourses(featured);
   }, []);
 
   const viewAllCourses = () => {
     setHide(true);
     setFeaturedCourses(courseData);
-  }
+  };
 
   const viewFeaturedCourses = () => {
     setHide(false);
-    setFeaturedCourses(courseData.filter((course: Course) => course.isFeatured));
-  }
+    const featured = courseData.filter((course) => course.isFeatured);
+    setFeaturedCourses(featured);
+  };
 
   const toggleLearnMore = (courseId: number) => {
-    setLearnMoreId(learnMoreId === courseId ? null : courseId);
-  }
+    router.push(`/coursesDetail?courseId=${courseId}`);
+  };
 
   return (
     <div className="py-12 bg-gray-900">
       <div>
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn With the Best!</p>
+          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
+            {!hide ? "FEATURED COURSES" : "ALL COURSES"}
+          </h2>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+            Learn With the Best!
+          </p>
         </div>
         <div className="mt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
@@ -62,30 +69,38 @@ const FeaturedCourses = () => {
                     className="w-full h-80 object-cover"
                   />
                   <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                    <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
-                    <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
-                    
+                    <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                      {course.title}
+                    </p>
+                    <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
+                      {course.description}
+                    </p>
+
                     {learnMoreId === course.id ? (
                       <>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">Price: ${course.price}</p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">Instructor: {course.instructor}</p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">Duration: {course.duration}</p>
-                        <Link 
-                          href="" 
-                          onClick={() => toggleLearnMore(course.id)} 
-                          className="text-teal-600 hover:text-teal-500 mt-4"
+                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
+                          Price: ${course.price}
+                        </p>
+                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
+                          Instructor: {course.instructor}
+                        </p>
+                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
+                          Duration: {course.duration}
+                        </p>
+                        <span
+                          onClick={() => toggleLearnMore(course.id)}
+                          className="text-teal-600 hover:text-teal-500 mt-4 cursor-pointer"
                         >
                           Hide Details
-                        </Link>
+                        </span>
                       </>
                     ) : (
-                      <Link 
-                        href="" 
-                        onClick={() => toggleLearnMore(course.id)} 
-                        className="text-teal-600 hover:text-teal-500 mt-4"
+                      <span
+                        onClick={() => toggleLearnMore(course.id)}
+                        className="text-teal-600 hover:text-teal-500 mt-4 cursor-pointer"
                       >
                         Learn More
-                      </Link>
+                      </span>
                     )}
                   </div>
                 </BackgroundGradient>
@@ -111,6 +126,7 @@ const FeaturedCourses = () => {
           )}
         </div>
       </div>
+
     </div>
   );
 };

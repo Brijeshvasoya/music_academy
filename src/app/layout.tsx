@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.variable} antialiased bg-white dark:bg-slate-900 text-black dark:text-white`}
+        className={`${inter.variable} antialiased h-screen bg-white dark:bg-slate-900 text-black dark:text-white`}
       >
         <div className="relative w-full flex items-center justify-center">
           <Navbar />
